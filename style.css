@@ -1,0 +1,121 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;;
+}
+
+body
+{
+
+    background-color: hsl(229, 57%, 11%);
+    background-image:url("images/bg-desktop.png");
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+    
+.wrap
+{
+   position: absolute;
+   top: 230px;
+   right: 25%;
+   left: 25%;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+
+}
+
+
+.content
+{
+    background-color: hsl(228, 56%, 26%);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 7px 50px 7px 7px;
+  
+}
+
+.status
+{
+    background-color: hsl(228, 56%, 26%);
+    width: 500px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 7px 7px 7px 7px;
+    color: white;
+    text-align: center;
+
+}
+
+p
+{
+
+    display: inline;
+}
+
+.text
+{
+    margin: 30px;
+}
+#progress-bar
+{
+    height: 15px;
+    width: 80%;
+    background-color:hsl(229, 57%, 11%);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+
+}
+
+.attribution
+{
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
+    right: 25%;
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
+
+.fylo
+{
+    margin: 30px 0px 10px 20px;
+}
+.img2
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.icon
+{
+    background-color:hsl(229, 57%, 11%);
+    padding: 5px;
+    margin: 5px;
+}
+
+@media all and (max-width: 375px) {
+    body
+    {
+        background-image: url("/images/bg-mobile.png");
+        background-position: top;
+    }  
+    
+    .wrap
+    {
+        flex-direction: column;
+
+    }
+
+   
+}
